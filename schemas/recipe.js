@@ -34,6 +34,12 @@ export default {
       of: [{ type: 'reference', to: { type: 'ingredient' } }],
     },
     {
+      name: 'optionalIngredients',
+      title: 'Optional Ingredients',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'ingredient' } }],
+    },
+    {
       name: 'category',
       title: 'Category',
       type: 'reference',

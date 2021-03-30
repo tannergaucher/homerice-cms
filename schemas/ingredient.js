@@ -18,6 +18,15 @@ export default {
       title: 'External Href',
       type: 'url',
     },
+    {
+      name: 'slug',
+      title: 'Ingredient Slug',
+      type: 'slug',
+      options: {
+        source: 'text',
+        maxLength: 96,
+      },
+    },
   ],
   preview: {
     select: {
