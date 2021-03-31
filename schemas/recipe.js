@@ -64,6 +64,12 @@ export default {
       type: 'blockContent',
     },
     {
+      name: 'gear',
+      title: 'Gear',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'gear' } }],
+    },
+    {
       name: 'publishedAt',
       title: 'Published at',
       type: 'datetime',

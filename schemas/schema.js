@@ -5,8 +5,9 @@ import blockContent from './blockContent'
 import category from './category'
 import ingredient from './ingredient'
 import recipe from './recipe'
+import gear from './gear'
 
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat([category, recipe, ingredient, blockContent]),
+  types: schemaTypes.concat([category, recipe, ingredient, blockContent, gear]),
 })
