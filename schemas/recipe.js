@@ -55,7 +55,12 @@ export default {
     },
     {
       name: 'youtubeVideoId',
-      title: 'Youtube video ID',
+      title: 'YouTube video ID',
+      type: 'string',
+    },
+    {
+      name: 'videoMusicCredit',
+      title: 'Video Music Credit',
       type: 'string',
     },
     {
