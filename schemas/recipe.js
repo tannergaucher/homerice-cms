@@ -65,7 +65,7 @@ export default {
     },
     {
       name: 'body',
-      title: 'Recipe Body',
+      title: 'Post Body',
       type: 'blockContent',
     },
     {
