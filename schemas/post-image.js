@@ -4,8 +4,8 @@ export default {
   type: 'image',
   fields: [
     {
-      title: 'caption',
-      name: 'Caption',
+      name: 'caption',
+      title: 'Caption',
       type: 'string',
     },
   ],
