@@ -6,8 +6,16 @@ import category from './category'
 import ingredient from './ingredient'
 import recipe from './recipe'
 import gear from './gear'
+import postImage from './post-image'
 
 export default createSchema({
   name: 'default',
-  types: schemaTypes.concat([category, recipe, ingredient, blockContent, gear]),
+  types: schemaTypes.concat([
+    category,
+    recipe,
+    ingredient,
+    blockContent,
+    gear,
+    postImage,
+  ]),
 })

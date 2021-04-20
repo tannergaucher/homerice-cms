@@ -53,6 +53,7 @@ export default {
         hotspot: true,
       },
     },
+    // Add array of postImages
     {
       name: 'youtubeVideoId',
       title: 'YouTube video ID',
