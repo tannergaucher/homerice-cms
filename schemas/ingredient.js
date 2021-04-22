@@ -19,6 +19,14 @@ export default {
       type: 'url',
     },
     {
+      name: 'image',
+      title: 'Image',
+      type: 'image',
+      options: {
+        hotspot: true,
+      },
+    },
+    {
       name: 'slug',
       title: 'Ingredient Slug',
       type: 'slug',
