@@ -54,6 +54,12 @@ export default {
       },
     },
     {
+      name: 'tags',
+      title: 'Tags',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'tag' } }],
+    },
+    {
       name: 'youtubeVideoId',
       title: 'YouTube video ID',
       type: 'string',
