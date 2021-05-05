@@ -7,8 +7,6 @@ import ingredient from './ingredient'
 import recipe from './recipe'
 import gear from './gear'
 import postImage from './post-image'
-import tag from './tag'
-import meta from './meta'
 
 export default createSchema({
   name: 'default',
@@ -19,7 +17,5 @@ export default createSchema({
     blockContent,
     gear,
     postImage,
-    tag,
-    meta,
   ]),
 })
