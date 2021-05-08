@@ -40,6 +40,12 @@ export default {
       of: [{ type: 'reference', to: { type: 'ingredient' } }],
     },
     {
+      name: 'places',
+      title: 'Places',
+      type: 'array',
+      of: [{ type: 'reference', to: { type: 'place' } }],
+    },
+    {
       name: 'category',
       title: 'Category',
       type: 'reference',
