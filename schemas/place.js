@@ -14,6 +14,11 @@ export default {
       type: 'string',
     },
     {
+      title: 'Location',
+      name: 'location',
+      type: 'geopoint',
+    },
+    {
       name: 'slug',
       title: 'Slug',
       type: 'slug',
