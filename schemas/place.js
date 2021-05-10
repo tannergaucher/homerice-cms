@@ -9,14 +9,9 @@ export default {
       type: 'string',
     },
     {
-      name: 'plusCode',
-      title: 'Plus Code',
+      name: 'googleMapsPlaceName',
+      title: 'URL Encoded Google Maps Place Name',
       type: 'string',
-    },
-    {
-      title: 'Location',
-      name: 'location',
-      type: 'geopoint',
     },
     {
       name: 'slug',
